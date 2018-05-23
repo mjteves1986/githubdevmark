@@ -110,23 +110,23 @@ use Roots\Sage\Wrapper;
             <div class="row mt-5">
               <div class="col-lg-4">
                 <div class="mb-2">
-                  <img class="img-fluid" src="<?php echo get_stylesheet_directory_uri().'/dist/images/icons/Icon-tools.svg'; ?>" alt="">
+                  <img class="img-fluid mb-4" src="<?php echo get_stylesheet_directory_uri().'/dist/images/icon-tools.png'; ?>" alt="">
                 </div>
-                <h3>We'll work with you no matter the stage of your project</h3>
+                <h3 class="mb-3">We'll work with you no matter the stage of your project</h3>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam at porttitor sem.  Aliquam erat volutpat.</p>
               </div>
               <div class="col-lg-4">
                 <div class="mb-2">
-                  <img class="img-fluid" src="<?php echo get_stylesheet_directory_uri().'/dist/images/icons/Icon-chat.svg'; ?>" alt="">
+                  <img class="img-fluid mb-4" src="<?php echo get_stylesheet_directory_uri().'/dist/images/explain.png'; ?>" alt="">
                 </div>
-                <h3>We don't tell, we explain</h3>
+                <h3 class="mb-3">We don't tell, we explain</h3>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam at porttitor sem.  Aliquam erat volutpat.</p>
               </div>
               <div class="col-lg-4">
                 <div class="mb-2">
-                  <img class="img-fluid" src="<?php echo get_stylesheet_directory_uri().'/dist/images/icons/icon-m2.svg'; ?>" alt="">
+                  <img class="img-fluid mb-4" src="<?php echo get_stylesheet_directory_uri().'/dist/images/space.png'; ?>" alt="">
                 </div>
-                <h3>We're masters of maximising space</h3>
+                <h3 class="mb-3">We're masters of maximising space</h3>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam at porttitor sem.  Aliquam erat volutpat.</p>
               </div>
             </div>
@@ -139,9 +139,9 @@ use Roots\Sage\Wrapper;
     <?php 
       get_template_part('templates/parts/testimonials');    
       get_template_part('templates/parts/recent-project'); 
-      get_template_part('templates/parts/footer-form');
 
       do_action('get_footer');
+      get_template_part('templates/parts/footer-form');
       get_template_part('templates/footer');
       wp_footer();
     ?>

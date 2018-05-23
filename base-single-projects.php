@@ -17,8 +17,7 @@ use Roots\Sage\Wrapper;
     <?php
       do_action('get_header');
       get_template_part('templates/header');
-
-      if( is_page() ) : get_template_part('templates/parts/banner');  endif;
+      get_template_part('templates/parts/banner'); 
     ?>
 
     <div class="wrap container" role="document">
@@ -35,7 +34,8 @@ use Roots\Sage\Wrapper;
     </div><!-- /.wrap -->
 
     <?php 
-
+      get_template_part('templates/parts/testimonials');   
+      
       do_action('get_footer');
       get_template_part('templates/parts/footer-form');
       get_template_part('templates/footer');

@@ -132,18 +132,8 @@
             }, timeToWaitForLast, "homepage_update_fn");
         });
 
-
-      },
-      finalize: function() {
-        // JavaScript to be fired on all pages, after page specific JS is fired
-      }
-    },
-    // Home page
-    'home': {
-      init: function() {
-        // JavaScript to be fired on the home page
-        var owlCarousel = $(".owl-main");
-        owlCarousel.owlCarousel({
+        var owlTestimonial = $(".owl-main");
+        owlTestimonial.owlCarousel({
             autoplay: 3000,
             items: 1, // THIS IS IMPORTANT 
             slideSpeed: 300,
@@ -155,12 +145,44 @@
             nav: true,
             loop: true,
             singleItem: true,
-            margin: 30,
-            navText: [
-                  //'<i class="fa fa-3x fa-angle-left" aria-hidden="true"></i>',
-                  //'<i class="fa fa-3x fa-angle-right" aria-hidden="true"></i>'
-            ],
+            margin: 30
         }); 
+
+        var owlTestimonialColumn = $(".owl-column");
+        owlTestimonialColumn.owlCarousel({
+            autoplay: 3000,
+            items: 1, // THIS IS IMPORTANT 
+            slideSpeed: 300,
+            touchDrag: false,
+            mouseDrag: false,
+            autoplayHoverPause: true, // Stops autoplay
+            nav: false,
+            loop: true,
+            singleItem: true,
+            margin: 30,
+            responsive:{
+                0:{
+                    items:1
+                },
+                768:{
+                    items:2
+                },
+                1200:{
+                    items:3
+                }
+            }
+        }); 
+
+
+      },
+      finalize: function() {
+        // JavaScript to be fired on all pages, after page specific JS is fired
+      }
+    },
+    // Home page
+    'home': {
+      init: function() {
+        // JavaScript to be fired on the home page
       },
       finalize: function() {
         // JavaScript to be fired on the home page, after the init JS
@@ -170,6 +192,7 @@
     'about_us': {
       init: function() {
         // JavaScript to be fired on the about us page
+        
       }
     },
     // Contact page, note the change from contact-us to contact.

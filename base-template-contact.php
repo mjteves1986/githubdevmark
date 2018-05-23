@@ -17,29 +17,15 @@ use Roots\Sage\Wrapper;
     <?php
       do_action('get_header');
       get_template_part('templates/header');
+      get_template_part('templates/parts/banner');
 
-      if( is_page() ) : get_template_part('templates/parts/banner');  endif;
-    ?>
-
-    <div class="wrap container" role="document">
-      <div class="content row">
-        <main class="main">
-          <?php include Wrapper\template_path(); ?>
-        </main><!-- /.main -->
-        <?php if (Setup\display_sidebar()) : ?>
-          <aside class="sidebar">
-            <?php include Wrapper\sidebar_path(); ?>
-          </aside><!-- /.sidebar -->
-        <?php endif; ?>
-      </div><!-- /.content -->
-    </div><!-- /.wrap -->
-
-    <?php 
+      get_template_part('templates/parts/footer-form');
+      get_template_part('templates/parts/google-maps');
 
       do_action('get_footer');
-      get_template_part('templates/parts/footer-form');
       get_template_part('templates/footer');
       wp_footer();
     ?>
   </body>
+  <script type="text/javascript" defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyC59KGdy45eWBWxvS52amfuj6osIsdcs0w"></script>
 </html>

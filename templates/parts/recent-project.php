@@ -42,7 +42,7 @@ if ( $query->have_posts() ) : ?>
           <?php endwhile; wp_reset_postdata();  ?>  
         </div>
         <div class="text-center mt-5">
-          <a class="btn btn-default" href="<?php echo esc_url(home_url('/')).'projects'; ?>">See all projects</a>
+          <a class="btn btn-default" href="<?php echo esc_url(home_url('/')).'projects'; ?>"><?php echo __('See all projects', 'sage');?></a>
         </div>
     </div>
   </section><?php 

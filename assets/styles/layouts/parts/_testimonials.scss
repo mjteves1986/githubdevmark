@@ -31,7 +31,7 @@
 				    left: 0;
 				    margin: 0 auto;
 					position: absolute;  
-				    right: 0;
+				    right: 0;   
 					top: -22px;
 					width: 45px
 				}
@@ -57,8 +57,16 @@
 					font-stretch: normal;
 					line-height: 1.67;
 					letter-spacing: normal;
-					text-align: center;
 					color: $secondary-color;
+
+					&:before {
+						background-color: $nonary-color;
+						content: '';
+						display: block;
+						height: 2px;
+						margin: 0 auto 15px;
+						width: 14px;
+					}
 				}
 
 				h6 {
@@ -69,10 +77,74 @@
 					font-stretch: normal;
 					line-height: 1.25;
 					letter-spacing: normal;
-					text-align: center;
 				}
 			} 
 		}
+	}
+
+
+
+	// For Three Column
+	&.three-column {
+		.carousel-wrapper {
+			background-image: url(../images/Testimonials-background-image-02.jpg);
+			background-size: cover;
+			background-repeat: no-repeat;
+			background-position: center;
+			position: relative;
+			padding: 65px 45px;
+
+			@include media-breakpoint-up(xl) {   
+				padding: 120px 100px;
+			}
+
+			h2 {
+				color: $White;
+				line-height: 1.17;
+			}
+			h5 {
+				color: $White;
+				font-size: 22px;
+				line-height: 1.45;
+			}
+		}
+	  	.owl-carousel {
+			.item { 
+				background: none;
+
+				.white-box {
+					margin: 25px auto 0;
+					padding: 45px 30px 35px;
+					text-align: left;
+
+					&:before {
+						left: 30px;
+						right: auto;
+					}
+					&:after {
+						display: none;
+					}
+
+					.name {
+						margin-bottom: 0;
+						padding-left: 25px;
+    					position: relative;
+
+						&:before {
+							background-color: $secondary-color;
+						    left: 0;
+							position: absolute;
+						    top: 50%;
+						}
+					}
+
+					h6 { 
+						margin: 0;
+						padding-left: 25px;
+					}
+				}
+			}
+	  	}
 	}
 }  
 

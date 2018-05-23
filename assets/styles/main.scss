@@ -30,8 +30,12 @@
 @import "layouts/parts/banner";
 @import "layouts/parts/testimonials";
 @import "layouts/parts/projects";
+@import "layouts/parts/faq";
+@import "layouts/parts/team";
 
 // For Plugins
 @import "plugins/pagination";
 @import "plugins/google-maps";
 @import "plugins/pushy";
+@import "plugins/gravity-form";
+@import "plugins/superfly";

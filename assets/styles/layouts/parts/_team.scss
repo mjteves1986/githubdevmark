@@ -1,0 +1,11 @@
+#team {
+	.avatar {
+		img {
+			@include border-radius(50%);
+			width: 165px;
+	  		height: 165px;
+	  		-webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+    		filter: grayscale(100%);
+		}
+	}
+}

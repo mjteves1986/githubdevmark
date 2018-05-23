@@ -1,0 +1,19 @@
+/* SUPERFLY MENU */
+body.sticky div.sfm-label-metro .sfm-navicon-button {
+	top: 20px;
+}
+div.sfm-label-metro .sfm-navicon-button {
+	right: 20px;
+	top: 23px;
+}
+div.sfm-navicon-button {
+	padding: 20px 13px;
+}
+
+@media (min-width: 992px) {
+	.sfm-rollback {
+		display: none;
+		width: 0;
+	}
+}
+

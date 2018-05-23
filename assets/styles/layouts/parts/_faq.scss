@@ -1,0 +1,55 @@
+#faq {
+	background-color: $denary-color;
+
+	#accordion {
+		.card {
+			@include border-radius(0);
+
+			a {
+				@include transition(all 0.3s);
+				cursor: pointer;
+				position: relative;
+
+				&.card-header {
+					background-color: $White;
+					border-bottom: 0 none;
+					padding: 0.938rem 1.25rem;
+					font-size: 18px;
+					font-weight: 600;
+					font-style: normal;
+					font-stretch: normal;
+					line-height: 1.67;
+					letter-spacing: normal;
+					text-align: left;
+					color: $secondary-color;
+
+					&:before {
+						@include transition(all 0.3s);
+						background-image: url(../images/minus.png);
+						background-repeat: no-repeat;
+						content: '';
+						height: 32px;
+						position: absolute;
+						right: 15px;
+						width: 32px;
+					}
+				} 
+
+				&.collapsed {
+					&:before {
+						background-image: url(../images/add.png);
+					}
+				}
+			}
+
+			.collapse {
+				line-height: 1.67;
+   
+				.card-body {
+					@include transition(all 0.3s);
+					padding-top: 0;
+				}
+			}
+		}
+	}
+}  

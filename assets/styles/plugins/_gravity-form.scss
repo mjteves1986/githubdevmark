@@ -1,0 +1,65 @@
+/* Gravity Form */
+#footer-form h2{
+	padding-right: 15px;
+}
+div.gform_wrapper {
+	margin: 0;
+}
+div.gform_wrapper ul.gform_fields li.gfield{
+	margin: 0 0 35px;
+	padding: 0;
+}
+div.gform_wrapper ul.gform_fields li.gfield > label{
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 1.43;
+	color: #4b6173;
+	margin: 0;
+}
+div.gform_wrapper ul.gform_fields li.gfield > div{
+	margin: 0;
+}
+div.gform_wrapper ul.gform_fields li.gfield > div.ginput_container_select{
+	padding-top: 3px;
+}
+div.gform_wrapper input:not([type="radio"]):not([type="checkbox"]):not([type="submit"]):not([type="button"]):not([type="image"]):not([type="file"]),
+div.gform_wrapper .top_label input.medium, div.gform_wrapper .top_label select.medium,
+div.gform_wrapper .left_label input.medium, div.gform_wrapper .left_label select.medium,
+div.gform_wrapper .top_label input.large, div.gform_wrapper .top_label select.large,
+div.gform_wrapper .left_label input.large, div.gform_wrapper .left_label select.large{
+	width: 100%;
+	color: #253039;
+	border-width: 0 0 1px; 
+	border-style: solid;
+	border-color: #a4afb8;
+	font-size: 1.125rem;
+	line-height: 1.67;
+	margin-bottom: 0;
+	outline: none;
+	padding: 5px 0;
+}
+div.gform_wrapper .gform_footer input.button, 
+div.gform_wrapper .gform_footer input[type="submit"]{
+	min-width: 180px;
+	height: 50px;
+	background-color: #0075c7;
+	color: #fff;
+	font-size: 1.125rem;
+	font-weight: 600;
+	border: 0;
+	box-shadow: 0 2px 2px 0 rgba(18, 23, 28, 0.2);
+	text-align: center;
+	text-decoration: none;
+	-webkit-border-radius: 2px;
+	-moz-border-radius: 2px;
+	border-radius: 2px;
+	-o-border-radius: 2px;
+    -webkit-transition: all 200ms ease-in;
+    -moz-transition: all 200ms ease-in;
+    -o-transition: all 200ms ease-in;
+    transition: all 200ms ease-in;
+}
+div.gform_wrapper .gform_footer input.button:hover, 
+div.gform_wrapper .gform_footer input[type="submit"]:hover{
+	background-color: #0163a8;
+}
