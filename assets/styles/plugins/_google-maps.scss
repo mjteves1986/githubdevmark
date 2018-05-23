@@ -1,0 +1,71 @@
+#googleMapWrap {
+	position: relative;
+
+	.static-map {
+		background-image: url(../images/Map.png);
+		background-repeat: no-repeat;
+		background-size: cover;
+		position: absolute;
+		height: 100%;
+		width: 100%;
+	}
+
+	.inner {
+		padding: 200px 0;
+
+		.item-box {
+			background-color: $White;
+			padding: 50px 30px 30px;
+
+			h2 {
+				line-height: 1.17;
+				color: $secondary-color;
+				margin-bottom: 30px;
+			}
+
+			p {
+			  color: $secondary-color;
+			  font-size: 18px;
+			  font-weight: normal;
+			  font-style: normal;
+			  font-stretch: normal;
+			  line-height: 1.67;
+			  letter-spacing: normal;
+			  margin-bottom: 20px;
+			  padding-left: 3rem;
+			  text-align: left;
+
+			  &.phone {
+			  	background-image: url(../images/icons/phone@1x.svg);
+				background-repeat: no-repeat;
+			  }
+			  &.email {
+			  	background-image: url(../images/icons/email@1x.svg);
+				background-repeat: no-repeat;
+			  }
+			  &.address {
+			  	background-image: url(../images/icons/map-pin@1x.svg);
+				background-repeat: no-repeat;
+			  }
+			}  
+
+			.schedule {
+			  	background-image: url(../images/icons/opening-times@1x.svg);
+				background-repeat: no-repeat;
+				padding-left: 3rem;
+
+				ul {
+					li {
+						margin-bottom: 10px;
+					}
+				}
+			}
+		}
+	}
+}
+
+#googleMap { 
+	height: 100%;
+	position: absolute;
+    width: 100%;
+}

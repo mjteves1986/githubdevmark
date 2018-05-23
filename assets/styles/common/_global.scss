@@ -1,0 +1,128 @@
+html {
+	font-size: 100% !important;
+}
+body {
+	font-family: $primary-font;
+	font-size: 1.125rem;
+}
+h1, h2, h3, h4, h5, h6 {
+	text-rendering: optimizelegibility;
+}
+h2 {
+	&.with-border {
+		position: relative;
+		
+		&:after {
+			content: '';
+			display: block;
+			margin-bottom: 30px;
+    		margin-top: 20px;
+			width: 50px;
+		  	height: 3px;
+		  	border: solid 2px $septenary-color;
+		}
+	}
+}
+
+h3 {
+  color: $secondary-color;
+  font-size: 22px;
+  font-weight: 600;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.27;
+  letter-spacing: normal;
+}
+
+a {
+	outline: none;
+	text-decoration: none;
+}
+a, a:before, a:after {
+	@include transition(all 200ms ease-in);
+}
+a:hover {
+	text-decoration: underline;
+}
+a, a:link, a:hover, a:active, a:focus, a:visited:link {
+	outline: none;
+	-webkit-tap-highlight-color: rgba(0,0,0,0);
+}
+img {
+	border: 0;
+	max-width: 100%;
+	position: relative;
+	width: auto\9;
+	vertical-align: middle;
+	-ms-interpolation-mode: bicubic;
+}
+img:not(.ls-bg) {
+	height: auto !important;
+}
+p {
+	margin: 0 0 1.5rem;
+	padding: 0;
+}
+p:last-child{
+	margin-bottom: 0;
+}
+table {
+	margin: 1.5rem 0;
+}
+::-webkit-input-placeholder { opacity: 1; }
+::-moz-placeholder { opacity: 1; } /* firefox 19+ */
+:-ms-input-placeholder { opacity: 1; filter:alpha(opacity=100); } /* ie */
+input:-moz-placeholder { opacity: 1; }
+iframe {
+	max-width: 100%;
+}
+
+.section-index {
+	overflow: hidden;
+	padding: 120px 0;
+}
+
+.wrap {
+	margin-top: 90px;
+}
+
+.extra-width {
+	.container {
+		max-width: 1340px;
+		width: 100%;
+	}
+}
+
+.dark-grey-box {
+	background-color: $secondary-color;
+	color: $White;
+	padding: 3rem 2rem;
+	position: relative;
+	z-index: 1;
+
+	@include media-breakpoint-up(xl) {
+		padding: 6rem 5rem;
+	} 
+
+	.title {
+		color: $White;
+		font-size: 36px;
+		font-weight: 600;
+		font-style: normal;
+		font-stretch: normal;
+		line-height: 1.17;
+		margin-bottom: 1.875rem;
+		letter-spacing: normal;
+		text-align: left;
+	}
+
+	ul {
+		li {
+			background-image: url(../images/check-gold.png);
+			background-position: top left;
+			background-repeat: no-repeat;
+			margin-bottom: 14px;
+			padding-left: 40px;
+		}
+	}
+}

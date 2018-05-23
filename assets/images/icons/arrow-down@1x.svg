@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="32px" height="32px" viewBox="0 0 32 32" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 49.3 (51167) - http://www.bohemiancoding.com/sketch -->
+    <title>Components / icon / ui / arrow-down@1x</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Components-/-icon-/-ui-/-arrow-down" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="ic_expand_less">
+            <g id="Icon-24px">
+                <polygon id="Shape" fill="#384956" transform="translate(16.000000, 15.606667) scale(1, -1) translate(-16.000000, -15.606667) " points="16 10.6666667 8 18.6666667 9.88 20.5466667 16 14.44 22.12 20.5466667 24 18.6666667"></polygon>
+                <polygon id="Shape" points="0 0 32 0 32 32 0 32"></polygon>
+            </g>
+        </g>
+    </g>
+</svg>

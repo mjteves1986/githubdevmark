@@ -1,0 +1,58 @@
+#recent-project {
+	background-color: $tertiary-color;
+
+	h2 {
+		margin-bottom: 30px;
+	}
+
+	h4 {
+		color: $secondary-color;
+		font-size: 22px;
+		font-weight: normal;
+		font-style: normal;
+		font-stretch: normal;
+		line-height: 1.73;
+		letter-spacing: normal;
+		margin-bottom: 30px;
+		text-align: center;
+	}
+
+
+
+	.item {
+		box-shadow: 0 0 30px 0 rgba(0,0,0,.1);
+
+		h5 {
+			font-size: 22px;
+			font-weight: 600;
+			font-style: normal;
+			font-stretch: normal;
+			line-height: 1.27;
+			letter-spacing: normal;
+			text-align: left;
+			color: $secondary-color;
+			padding: 20px;
+		}   
+
+		p {
+			padding: 0 20px;
+		}  
+
+		a {
+			border: 0 none;
+			color: $primary-color;
+			display: block;
+			font-size: 18px;
+			font-weight: 600;
+			font-style: normal;
+			font-stretch: normal;
+			letter-spacing: normal;
+			line-height: 1.33;
+			text-align: left;
+
+			&.btn {
+				margin: 10px;
+			}
+		}
+	}
+}

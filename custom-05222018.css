@@ -1,0 +1,140 @@
+.grid-line {
+    background: url(dist/images/grid-line.jpg) repeat-y center center;
+}
+
+
+/*
+	Global
+*/
+h2 {
+	color: #253039;
+	font-size: 2.25rem;
+	font-weight: 600;
+	line-height: 1.17
+}
+
+
+
+/*
+	Form Area
+*/
+form .form-control {
+	color: #253039;
+	border-radius: 0;
+	border-width: 0 0 1px; 
+	border-color: #a4afb8;
+	font-size: 18px;
+	line-height: 1.67;
+	margin-bottom: 2.5rem;
+	outline: none;
+	padding-left: 0;
+	padding-right: 0; }
+
+	form .form-control::-webkit-input-placeholder { opacity: 1; }
+	form .form-control::-moz-placeholder { opacity: 1; } /* firefox 19+ */
+	form .form-control:-ms-input-placeholder { opacity: 1; filter:alpha(opacity=100); } /* ie */
+	form .form-controlinput:-moz-placeholder { opacity: 1; }
+
+	form .form-control:focus {
+		outline: none; }
+
+	form label {
+		color: #4b6173;
+		font-size: 14px;
+		line-height: 1.43; }
+
+
+
+/*
+	Banner Area
+*/
+
+
+
+/*
+	Number Area
+*/
+.column-number .num {
+	font-size: 100px;
+	font-weight: 600;
+	font-style: normal;
+	font-stretch: normal;
+	line-height: 1;
+	letter-spacing: normal;
+	text-align: center;
+	color: #0096ff; }
+
+	.column-number .num span {
+		font-size: 30px;
+		font-weight: 900;
+	}
+.column-number p {
+  	font-size: 14px;
+  	font-weight: 600;
+  	font-style: normal;
+  	font-stretch: normal;
+  	line-height: 1.43;
+  	letter-spacing: normal;
+  	text-align: center;
+  	text-transform: uppercase;
+  	color: #253039; }
+
+
+
+/*
+	Design Review Area
+*/
+#design-review .inner {
+	position: relative;
+}
+#design-review .inner .dark-grey-box {
+	bottom: 100px;
+}
+#design-review .design-review-img {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    content: '';
+    top: 0;
+    right: 0;
+    bottom: 0;
+    position: absolute;
+    width: 60%;
+    z-index: 0;
+}
+#design-review .design-review-img .holder {
+    height: 100%;
+    z-index: 1;
+}
+#design-review .design-review-img .holder img {
+    height: auto;
+    min-height: 100%;
+    min-width: 100%;
+    width: auto;
+}
+
+
+/* SUPERFLY MENU */
+body.sticky div.sfm-label-metro .sfm-navicon-button {
+	top: 20px;
+}
+div.sfm-label-metro .sfm-navicon-button {
+	right: 20px;
+	top: 23px;
+}
+div.sfm-navicon-button {
+	padding: 20px 13px;
+}
+
+@media (min-width: 992px) {
+	.sfm-rollback {
+		display: none;
+		width: 0;
+	}
+}
+
+
+
+  
+
+

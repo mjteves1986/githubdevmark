@@ -1,0 +1,26 @@
+#footer {
+	.widgets {
+		background-color: $tertiary-color;
+		color: $quinary-color;
+		font-size: 18px;
+		font-weight: 600;
+		line-height: 1.67;
+		padding-bottom: 30px;
+		padding-top: 30px;
+		text-transform: uppercase;
+
+		ul {
+			li {
+				a {
+					color: $quinary-color;
+					padding: 0 20px;
+				}
+			}
+		}
+	}
+	.credits {
+		color: $Black;
+		line-height: 1.14;
+		padding: 13px 0 17px;
+	}
+} 

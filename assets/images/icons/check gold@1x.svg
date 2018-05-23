@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="32px" height="32px" viewBox="0 0 32 32" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 49.3 (51167) - http://www.bohemiancoding.com/sketch -->
+    <title>Components / icon / ui / check gold@1x</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Components-/-icon-/-ui-/-check-gold" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="ic_done">
+            <g id="Icon-24px">
+                <polygon id="Shape" points="0 0 32 0 32 32 0 32"></polygon>
+                <polygon id="Shape" fill="#BF8F00" points="6.4 16 4.53333333 17.8666667 12 25.3333333 28 9.33333333 26.1333333 7.46666667 12 21.6"></polygon>
+            </g>
+        </g>
+    </g>
+</svg>
