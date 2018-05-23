@@ -117,18 +117,18 @@
         */
         $(document).ready(function($) {
            // Make elements the same min-height
-           $('#recent-project .item h5').equalHeights();
+           $('#project .item h5').equalHeights();
         }); /* end of as page load scripts */
         
         $(window).load(function() {
             // Make elements the same min-height 
-            $('#recent-project .item h5').equalHeights();
+            $('#project .item h5').equalHeights();
         });
         
         // Fire needed update on window resize
         $(window).resize(function () {
             waitForFinalEvent( function() {
-                $('#recent-project .item h5').equalHeights();
+                $('#project .item h5').equalHeights();
             }, timeToWaitForLast, "homepage_update_fn");
         });
 

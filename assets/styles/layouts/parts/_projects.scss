@@ -1,4 +1,4 @@
-#recent-project {
+#project {
 	background-color: $tertiary-color;
 
 	h2 {
@@ -14,10 +14,8 @@
 		line-height: 1.73;
 		letter-spacing: normal;
 		margin-bottom: 30px;
-		text-align: center;
+		text-align: center;  
 	}
-
-
 
 	.item {
 		box-shadow: 0 0 30px 0 rgba(0,0,0,.1);

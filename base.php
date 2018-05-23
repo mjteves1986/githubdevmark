@@ -18,7 +18,7 @@ use Roots\Sage\Wrapper;
       do_action('get_header');
       get_template_part('templates/header');
 
-      if( is_page() ) : get_template_part('templates/parts/banner');  endif;
+      if( is_page() || is_post_type_archive('projects') ) : get_template_part('templates/parts/banner');  endif;
     ?>
 
     <div class="wrap container" role="document">

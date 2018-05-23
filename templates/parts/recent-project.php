@@ -20,7 +20,7 @@ $args = array(
          
 if ( $query->have_posts() ) : ?>
 
-  <section id="recent-project" class="section-index">
+  <section id="project" class="section-index">
     <div class="container">
         <div class="text-center">
           <h2><?php echo $recent_title; ?></h2>
